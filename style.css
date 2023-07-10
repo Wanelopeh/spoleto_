@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: none;
+    font-family: 'Manrope', sans-serif;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    width: 100%;
+    list-style-type: none;
+    background-color: rgb(255, 255, 255);
+}
+.textbox{
+    border: 5px rgb(179, 179, 179);
+}
+.modal-toggle{
+    background-color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap:5px;
+    border: none;
+}
+#logo_pop{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    
+}
+.container_card{
+    display: flex;
+    padding-left: 20px;
+    width: 96%;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 45px;
+}
+span{
+    font-size: 13px;
+}
+
+#descricao_prato{
+    font-size: 14px;
+    margin-bottom: 5px;
+    height: 50px;
+}
+.card_descricao{
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    padding: 10px;
+    font-size: 15px;
+    border:1.5px solid;
+    border-top: 0px;
+    border-color: rgb(224, 224, 224);
+    border-radius: 0px 0px 11px 11px;
+}
+.position_fest{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    cursor: pointer;
+    left: 80%;
+    top: 130%;
+
+}
+.position_sobremesas{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    cursor: pointer;
+    left: 80%;
+    top: 122%;
+
+}
+
+.card_img_1{
+    border-radius: 11px 11px 0px 0px;
+    width: 230px;
+    height: 230px;
+    cursor: pointer;
+}
+.btn_nav{
+    cursor: pointer;
+}
+.card{
+    display: flex;
+    height: 250px;
+    flex-direction: column;
+    margin-bottom: 120px;  
+    position: relative;
+    cursor: pointer;
+}
+
+.categorias{
+    display: flex;
+    margin-left:100px;
+    font-size:24px;
+    font-weight: 599;
+    padding-bottom: 20px;
+}
+
+.section_1{
+    display: flex;
+    flex-direction: row;
+}
+
+#header_right{
+    display: flex;
+    margin-right: 50px;
+    gap: 30px;
+}
+
+header{
+    background-color: white;
+    color: black;
+    display: flex;
+    margin: 25px 25px 25px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#lista{
+    color:black;
+    display: flex;
+    font-family: Manrope;
+    margin-left: 65px;
+    font-size: 16px;
+    gap: 30px;
+}
+.ul, li{
+    color: white;
+    display: inline;
+    list-style: none;
+    font-family: Manrope;
+    font-size: 13px;
+    margin-right: 15px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+nav {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+
+}
+@media screen and (max-width: 768px) {
+.categorias{
+    font-size:17px;
+}
+}
+
+@media screen and (max-width: 375px){
+    body{
+    width: 100vw;
+    }
+    .container_card{
+    width: 100vw;
+    }   
+    .header{
+        background-color: aqua;
+    }
+
+}
+
+
